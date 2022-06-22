@@ -17,7 +17,7 @@ class Contenedor{
         thumbnail: thumbnail,
         id:1
       }
-      this.products.push(product)
+      this.products.push(newProduct)
       return newProduct;
     }else{
       const lastIndex = this.products[this.products.length-1].id
